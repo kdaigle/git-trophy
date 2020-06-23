@@ -35,7 +35,7 @@ var config = {
   },
   devServer: {
     contentBase: path.join(__dirname, "public"),
-    publicPath: "/dist/",
+    publicPath: "/dist",
     port: 9000,
     historyApiFallback: true
   }
